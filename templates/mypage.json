@@ -1,0 +1,54 @@
+[
+  {
+    "dateOfEntry": {
+      "year": {
+        "type": 0,
+        "limit": 9999
+      },
+      "month": {
+        "type": 0,
+        "limit": 12
+      },
+      "day": {
+        "type": 0,
+        "limit": 31
+      }
+    }
+    "basicData": {
+      "handle": {
+        "type": 1,
+        "limit": 50
+      },
+      "pronouns": {
+        "type": 1,
+        "limit": 50
+      },
+      "career": {
+        "type": 1,
+        "limit": 50
+      },
+      "website": {
+        "name": {
+          "type": 1,
+          "limit": 140
+        },
+        "url": {
+          "type": 1,
+          "limit": 280
+        }
+      },
+    },
+    "zodiac": {
+      "type": 1,
+      "limit": 50
+    },
+    "interest": {
+      "type": 1,
+      "limit": 280
+    },
+    "talent": {
+      "type": 1,
+      "limit": 280
+    }
+  }
+]

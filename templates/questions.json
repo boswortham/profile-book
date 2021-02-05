@@ -1,0 +1,46 @@
+[
+  {
+    "question": "Enter a number.",
+    "answer": {
+      "type": 0,
+      "content": 0,
+      "choices": null,
+      "limit": null
+  }
+  {
+    "question": "Enter a string of text.",
+    "answer": {
+      "type": 1,
+      "content": "",
+      "choices": null,
+      "limit": null
+    }
+  },
+  {
+    "question": "Answer this question true or false.",
+    "answer": {
+      "type": 2,
+      "content": null,
+      "choices": [true, false],
+      "limit" : null
+    }
+  },
+  {
+    "question": "Click one choice from this list.",
+    "answer": {
+      "type": 3,
+      "content": null,
+      "choices": [],
+      "limit": null
+    }
+  },
+  {
+    "question": "Click multiple choices from this list.",
+    "answer": {
+      "type": 4,
+      "content": [],
+      "choices": [],
+      "limit": null
+    }
+  }
+]
