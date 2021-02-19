@@ -1,0 +1,11 @@
+[
+  {
+    "id": null,
+    "question": "Enter a string of text.",
+    "answer": {
+      "type": "userInput",
+      "content": null,
+      "limit": null
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": null,
+    "question": "Click multiple choices from this list.",
+    "answer": {
+      "type": "multiAnswer",
+      "content": [],
+      "choices": [],
+      "limit": [null, null]
+    }
+  }
+]

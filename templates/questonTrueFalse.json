@@ -1,0 +1,10 @@
+[
+  {
+    "id": null,
+    "question": "Answer this question true or false.",
+    "answer": {
+      "type": "trueFalse",
+      "content": null
+    }
+  }
+]

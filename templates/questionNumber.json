@@ -1,0 +1,10 @@
+[
+  {
+    "id": null,
+    "question": "Enter a number.",
+    "answer": {
+      "type": "number",
+      "content": null,
+      "limit": [null, null]
+  }
+]

@@ -14,7 +14,7 @@
         "type": 0,
         "limit": 31
       }
-    }
+    },
     "basicData": {
       "id": 1002,
       "handle": {
@@ -38,7 +38,7 @@
           "type": 1,
           "limit": 280
         }
-      },
+      }
     },
     "zodiac": {
       "id": 1003,
