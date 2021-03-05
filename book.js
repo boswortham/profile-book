@@ -2,13 +2,17 @@
 
 let bookElements = [];
 
-let div = document.createElement("div");
-div.id = "book";
-document.getElementById("main").append(div);
+function replaceMainText() {
+  let div = document.createElement("div");
+  div.id = "book";
+  document.getElementById("main").append(div);
 
-let pre = document.createElement('pre');
-pre.innerHTML = JSON.stringify(bookElements[0], null, 2);
-document.getElementById("book").append(pre);
+  for (let i = 0; i < bookElements.length; i++) {
+    let pre = document.createElement('pre');
+    pre.innerHTML = JSON.stringify(bookElements[i], null, 2);
+    document.getElementById("book").append(pre);
+  }
+}
 
 // needed to make script work on page onload
 window.onload = function() {
@@ -22,6 +26,7 @@ window.onload = function() {
       for (let i = 0; i < data.length; i++) {
         bookElements[i] = data[i];
       }
+      replaceMainText();
     } else {
       // We reached our target server, but it returned an error
     }

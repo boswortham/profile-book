@@ -14,7 +14,9 @@
         "type": 0,
         "limit": 31
       }
-    },
+    }
+  },
+  {
     "basicData": {
       "id": 1002,
       "handle": {
@@ -39,17 +41,23 @@
           "limit": 280
         }
       }
-    },
+    }
+  },
+  {
     "zodiac": {
       "id": 1003,
       "type": 1,
       "limit": 50
-    },
+    }
+  },
+  {
     "interest": {
       "id": 1004,
       "type": 1,
       "limit": 280
-    },
+    }
+  },
+  {
     "talent": {
       "id": 1005,
       "type": 1,
